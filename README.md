@@ -9,7 +9,7 @@ P.S: This is just a protype version of the code and not intended for actual deve
 
 LIMITATIONS
 ===========
-We don’t support replication of directories at this point. We could create a directory and try to write inside the directory.
-Now, both the actual and backup files are created in the same directory. This is intended to be changed in future releases so that when this FS is mounted on Lustre, the client doesn’t see the backup files.
-Also, only one replicated copy of the actual file is created with extension ‘.bkp’ to the original file name.
-From Lustre point of view, the extra logic of selecting the replica in client and MDS nodes need to be implemented in the Lustre code.
+1. We don’t support replication of directories at this point. We could create a directory and try to write inside the directory.
+2. Now, both the actual and backup files are created in the same directory. This is intended to be changed in future releases so that when this FS is mounted on Lustre, the client doesn’t see the backup files.
+3. Also, only one replicated copy of the actual file is created with extension ‘.bkp’ to the original file name.
+4. From Lustre point of view, the extra logic of selecting the replica in client and MDS nodes need to be implemented in the Lustre code.
