@@ -17,7 +17,7 @@ LIMITATIONS
 P.S: If someone needs a clean working copy of the code to run with makefile, I would take some time and provide you a refined code.
 
 
-Code Ackmowledgements
+Code Acknowledgements
 ----------------------
 Code has been based on BBFS FS written by Joseph J. Pfeiffer, Jr., Ph.D., Emeritus Professor, New Mexico State University. It has been modified to suit our requirements of implementing a FUSE FS for replication in Lustre.
 
