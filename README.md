@@ -13,3 +13,5 @@ LIMITATIONS
 2. Now, both the actual and backup files are created in the same directory. This is intended to be changed in future releases so that when this FS is mounted on Lustre, the client doesn’t see the backup files.
 3. Also, only one replicated copy of the actual file is created with extension ‘.bkp’ to the original file name.
 4. From Lustre point of view, the extra logic of selecting the replica in client and MDS nodes need to be implemented in the Lustre code.
+5. The makefile needs to be modified, presently we directly compile the code using gcc for tfs.c and mount FUSE TFS on top of Lustre. Verified to be working.
+P.S: If someone needs a clean working copy of the code to run with makefile, I would take some time and provide you a refined code.
